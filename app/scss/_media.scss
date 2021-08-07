@@ -7,6 +7,9 @@
     justify-content: center;
     gap: 50px;
   }
+  .tvchannels__icon{
+    max-width: 250px;
+  }
  
 }
 
@@ -25,7 +28,9 @@
   .films .genres__card{
     width: 150px;
     height: 150px;
-    // max-height: 208px;
+  }
+  .tvchannels__icon{
+    max-width: 150px;
   }
 }
 
