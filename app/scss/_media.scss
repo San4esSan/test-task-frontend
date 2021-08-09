@@ -1,6 +1,17 @@
 @media screen and (max-width: 900px) {
-  .header__btn{
-    margin: 0;
+  .header{
+    // &__btn{
+    //   margin: 0;
+    // }
+    &__inner{
+      flex-wrap: wrap;   
+    }
+    &__search{
+      order: 1;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 30px;
+    }
   }
   .films .new-films__cards{
     flex-wrap: wrap;
@@ -14,17 +25,6 @@
 }
 
 @media screen and (max-width: 770px) {
- .header{
-    &__inner{
-      flex-wrap: wrap;   
-    }
-    &__search{
-      order: 1;
-      margin-left: 50px;
-      margin-right: 50px;
-      margin-top: 30px;
-    }
-  }
   .films .genres__card{
     width: 150px;
     height: 150px;
@@ -54,6 +54,23 @@
       .genres__text{
         display: none;
       }
+    }
+  }
+  .tvchannels{
+    &__item{
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    &__icon{
+      margin-bottom: 12px;
+    }
+    &__box{
+      width: 100%;
+    }
+    &__guide{
+      text-align: left;
     }
   }
   .footer{
